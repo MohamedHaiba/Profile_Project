@@ -1,0 +1,582 @@
+/* * {
+  box-sizing: border-box;
+} */
+
+/*star tools*/
+
+.container {
+  width: 1140px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.style-img {
+  max-width: 100%;
+  height: auto;
+}
+
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+.clear {
+  clear: both;
+}
+.width-33 {
+  width: 33.333%;
+}
+.width-40 {
+  width: 40%;
+}
+.width-50 {
+  width: 50%;
+}
+.width-60 {
+  width: 60%;
+}
+/*end tooles*/
+
+/*star section number1*/
+/*star header*/
+.header {
+  background-image: url("../image/slider.png");
+  height: 100vh;
+  width: 100%;
+}
+
+.header .content {
+  padding-top: 30%;
+  text-align: center;
+}
+
+.header .content h1 {
+  color: white;
+  text-transform: uppercase;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  display: inline-block;
+  margin: 40px;
+  padding: 10px;
+}
+
+.header .content button {
+  color: white;
+  border: 3px solid white;
+  background-color: transparent;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-size: larger;
+}
+.header .content button:hover {
+  background-color: #2ecc71;
+  cursor: pointer;
+}
+/*end header*/
+
+/*star nav bar*/
+.navbar {
+  color: white;
+  background-color: #252f31;
+  padding: 0 25px;
+}
+
+.navbar h2 {
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 48px;
+}
+
+.navbar h2 span {
+  color: #2ecc71;
+  text-transform: uppercase;
+}
+.navbar .hom {
+  padding: 0;
+  margin: 0;
+}
+.navbar .hom li {
+  list-style-type: none;
+  float: left;
+  padding: 15px 10px;
+}
+
+.navbar .hom li a {
+  text-transform: capitalize;
+  color: aliceblue;
+  text-decoration: none;
+}
+.navbar .hom li a:hover {
+  color: #2ecc71;
+}
+/*end nav bar*/
+/*end section number 1*/
+
+/*star section number 2*/
+/*star  the properties*/
+.properties {
+  margin-left: 150px;
+
+  overflow: hidden;
+}
+
+.properties .pro {
+  width: 33.3333%;
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-transform: uppercase;
+}
+
+.properties .pro p {
+  text-transform: none;
+}
+/*end  the properties*/
+/*end section number 2*/
+
+/*star section number 3*/
+/*star about me*/
+/*star width-40*/
+.about-me {
+  background-color: #f2f2f2;
+  overflow: hidden;
+}
+
+.about-me .img img {
+  max-width: 100%;
+  height: auto;
+}
+/*end width-40*/
+/*star width-60*/
+/*star about*/
+.about-me .width-60 .container-content {
+  padding: 70px 60px;
+}
+
+.about-me .width-60 .about h2 {
+  text-transform: uppercase;
+}
+/*end about*/
+
+/*star four-element*/
+.four-element {
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.four-element .element {
+  overflow: hidden;
+}
+
+.four-element .element .img {
+  width: 20%;
+}
+
+.four-element .element .img img {
+  padding: 25px 25px 0 0;
+}
+
+.four-element .element h3 {
+  text-transform: uppercase;
+}
+
+.four-element .element .content {
+  width: 80%;
+}
+/*end about me*/
+/*end ection number 3*/
+
+/*--star section number 4--*/
+/*--star my skills--*/
+.my-skills {
+  margin-top: 30px;
+}
+.my-skills .container {
+  overflow: hidden;
+}
+
+.my-skills .skills,
+.four-line {
+  float: left;
+}
+
+.my-skills .container h2 {
+  text-transform: uppercase;
+}
+
+.my-skills .container button {
+  text-transform: uppercase;
+  border: 2px solid green;
+  padding: 10px 30px;
+  margin-top: 30px;
+  background-color: white;
+  color: green;
+}
+.my-skills .container button:hover {
+  background: #252f31;
+  color: white;
+  cursor: pointer;
+}
+/*end my skills*/
+/*star four line*/
+.container-four-line {
+  padding-left: 50px;
+}
+/*star line one*/
+.container-four-line .line-one,
+.line-two,
+.line-three,
+.line-four h3 {
+  text-transform: uppercase;
+}
+
+.container-four-line .line-one .parent {
+  background: gainsboro;
+  width: 550px;
+  height: 20px;
+}
+
+.container-four-line .line-one .child {
+  background: green;
+  width: 500px;
+  height: 20px;
+  position: relative;
+}
+
+.container-four-line .abs {
+  position: absolute;
+  right: 10px;
+}
+/*end line one*/
+/*star line two*/
+.container-four-line .line-two .parent {
+  background: gainsboro;
+  width: 550px;
+  height: 20px;
+}
+
+.container-four-line .line-two .child {
+  background: green;
+  width: 470px;
+  height: 20px;
+  position: relative;
+}
+
+.container-four-line .abs {
+  position: absolute;
+  right: 10px;
+}
+/*end line two*/
+/*star line three*/
+.container-four-line .line-three .parent {
+  background: gainsboro;
+  width: 550px;
+  height: 20px;
+}
+
+.container-four-line .line-three .child {
+  background: green;
+  width: 500px;
+  height: 20px;
+  position: relative;
+}
+
+.container-four-line .abs {
+  position: absolute;
+  right: 10px;
+}
+/*end line three*/
+/*star line four*/
+.container-four-line .line-four .parent {
+  background: gainsboro;
+  width: 550px;
+  height: 20px;
+}
+
+.container-four-line .line-four .child {
+  background: green;
+  width: 400px;
+  height: 20px;
+  position: relative;
+}
+
+.container-four-line .abs {
+  position: absolute;
+  right: 10px;
+}
+/*end line four*/
+/*end my skills*/
+/*end section number 4*/
+
+/*star section number 5*/
+/*star resume*/
+.resume {
+  padding: 50px 0;
+  background-color: #f2f2f2;
+  margin-top: 60px;
+}
+
+.content-resume h2 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.content-resume p {
+  text-align: center;
+}
+.content-resume .btn-container {
+  text-align: center;
+}
+.content-resume button {
+  text-transform: uppercase;
+  margin-top: 40px;
+  text-transform: uppercase;
+  border: 2px solid green;
+  padding: 10px 30px;
+  background-color: white;
+  color: green;
+}
+.content-resume button:hover {
+  background: #252f31;
+  color: white;
+  cursor: pointer;
+}
+/*end resume*/
+/*end section number 5*/
+
+/*star section number 6*/
+.my-education {
+  overflow: hidden;
+}
+.my-education .edu h2 {
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.my-education .container .edu p {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.my-education .edu,
+.three-element {
+  float: left;
+}
+.my-education .container-three-element {
+  padding-top: 45px;
+  padding-left: 50px;
+}
+.my-education .container-three-element .one-element h3 {
+  text-transform: uppercase;
+  padding-top: 90px;
+}
+.my-education .container-three-element .two-element h3 {
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+.my-education .container-three-element span {
+  background-color: green;
+  padding: 5px;
+}
+.my-education .container-three-element hr {
+  margin-top: 25px;
+}
+.container-three-element .two-element p:nth-of-type(3) {
+  padding-bottom: 50px;
+}
+/*end section number 6*/
+
+/*star section number 7*/
+/*star work-experience*/
+.work-experience {
+  overflow: hidden;
+}
+.work-experience .work h2 {
+  text-transform: uppercase;
+  margin-top: 100px;
+}
+
+.work-experience .container .work p {
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.work-experience .work,
+.four-element {
+  float: left;
+}
+.work-experience .container-four-element {
+  padding-top: 35px;
+  padding-left: 50px;
+}
+.work-experience .container-four-element .one-element h3 {
+  text-transform: uppercase;
+}
+.work-experience .container-four-element .two-element h3 {
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+.work-experience .container-four-element span {
+  background-color: green;
+  padding: 5px;
+}
+.work-experience .container-four-element hr {
+  margin-top: 25px;
+}
+.container-four-element .three-element h3 {
+  text-transform: uppercase;
+  margin-top: 70px;
+}
+/*end work-experience*/
+/*star section number 7*/
+
+/*star section number 8*/
+/*star story*/
+.story {
+  margin-top: 50px;
+  background-color: #f2f2f2;
+  height: 400px;
+}
+.story .three-element p {
+  margin-top: 100px;
+  font-style: italic;
+  font-size: x-large;
+  text-align: center;
+}
+.story .three-element h3 {
+  text-align: center;
+  margin-top: 35px;
+}
+/*end story*/
+/*end section number 8*/
+
+/*star section number 9*/
+/*star portfolio*/
+.port {
+  margin-top: 90px;
+}
+.port h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.port p {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 90px;
+}
+
+.portfolio .content-image .img-parent {
+  padding: 15px;
+  position: relative;
+}
+
+.portfolio .content-image .img-parent:hover .hover-img {
+  display: block;
+  cursor: pointer;
+}
+
+.portfolio .content-image .img-parent .hover-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: green;
+  opacity: 0.7;
+  z-index: 99;
+  display: none;
+}
+/*star portfolio*/
+/*end section number 9*/
+
+/*star section number 10*/
+/*star contact me*/
+.contact-me {
+  overflow: hidden;
+  background-color: #252f31;
+  margin-top: 100px;
+}
+.contact-me .container {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+.container .contact,
+.details {
+  float: left;
+}
+.container .contact h2 {
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+.container .contact p {
+  color: gray;
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+.container .contact p:nth-of-type(2) {
+  margin-top: 30px;
+}
+.container .contact p:nth-of-type(4) {
+  margin-bottom: 30px;
+}
+.container .contact span {
+  color: #f2f2f2;
+  margin-right: 40px;
+}
+.container .content-details {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.container .content-details .form-group {
+  margin-bottom: 20px;
+}
+.container .content-details .form-group label,
+.container .content-details .form-group input,
+.container .content-details .form-group textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.container .content-details .form-group label {
+  color: #f2f2f2;
+  font-weight: 700;
+}
+.container .content-details .form-group input,
+.container .content-details .form-group textarea {
+  padding: 10px 5px;
+  background: #4a505a;
+  border: 0;
+}
+.container .content-details button {
+  text-transform: uppercase;
+  background-color: #131718;
+  color: #f2f2f2;
+  padding: 15px 40px;
+  margin-top: 15px;
+  border-width: 0;
+}
+.container .content-details button:hover {
+  background: #2ecc71;
+  cursor: pointer;
+  color: #252f31;
+}
+/*end contact me*/
+/*end section number 10*/
+
+/*star section number 11*/
+/*star copy right*/
+.copy-right {
+  background-color: #171d1f;
+  padding-top: 50px;
+}
+.container .total-images {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.container .total-images p {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: #4c5f63;
+}
+/*end copy right*/
+/*end section number 11*/
